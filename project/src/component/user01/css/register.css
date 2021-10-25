@@ -1,0 +1,153 @@
+body {
+    font-size: 16px;
+}
+
+.container .form {
+    margin: auto;
+}
+
+.formTitle {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+div .titleDiv {
+    width: 100%;
+    /* background-color: #265663; */
+    background-color: #19A187;
+}
+
+/* 更改所有按鈕顏色 */
+
+.btn {
+    color: white;
+    background-color: #265663;
+    border-color: #265663;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #338790;
+    border-color: #338790;
+}
+
+.registerUserName, .registerPassword, .registerrPassword, 
+.registerFullName, .registerEmail, .registerSmartPhone,
+.registerTrueid, .registerBirthday{
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.divRelative{
+    position: relative;
+}
+
+.textAbsolute{
+    position: absolute;
+    font-size: 14px;
+    color: red;
+    height: 25px;
+    width: 500px;
+}
+
+div .genderDiv{
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+}
+.genderDiv .genderText{
+    color:#6C757D;
+}
+div .birthdayText{
+    color:#6C757D;
+}
+
+
+/* 同意勾選 */
+
+.agreeLabel {
+    color: #265663;
+}
+
+.agreeLabel input {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 5px;
+    display: none;
+}
+
+.agreeCheckbox .agreeLabel .ruleClassName {
+    color: #19A187;
+    background-color: #FDF8B4;
+    text-decoration: none;
+    font-weight:normal;
+}
+
+.error {
+    color: #dc3545;
+    font-family: sans-serif;
+    font-size: 14px;
+    position: relative;
+    left: 35%;
+}
+
+.text-myset {
+    color: #19A187;
+    font-size: 14px;
+}
+
+/* 送出按鈕 */
+
+.form-group .btn {
+    margin: 30px;
+    width: 50%;
+    height: 50px;
+    color: white;
+    background-color: #265663;
+    border-color: #265663;
+}
+
+.form-group .btn:hover {
+    color: white;
+    background-color: #338790;
+    border-color: #338790;
+}
+
+.modal-header .form-title {
+    margin: auto;
+    color: #265663;
+}
+
+/* 條款彈出視窗 */
+
+.modal .ruleModal {
+    width: 100%;
+    background-color: #faf4e5;
+    color: #265663;
+    overflow-y: scroll;
+    border: hidden;
+}
+
+.agreeCheckbox .myText {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 註冊完成彈出視窗 */
+
+.modalBobySuccess .text-center{
+    color: #265663;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

@@ -1,0 +1,30 @@
+
+
+.button {
+    background: rgb(38, 86, 99);
+    color: white;
+}
+.button:hover {
+    background:  rgb(25,161,135);
+    color: white;
+}
+
+.button:focus {
+    background: rgb(25, 161, 135);
+    color: white;
+}
+.listTitle{
+    background: rgb(38, 86, 99);
+    color: white;
+    
+}
+/* .listTitle:hover {
+    background:  rgb(56,155,162);
+} */
+.listTitle:focus {
+    background: rgb(25, 161, 135);
+}
+.navigation{
+    background: rgb(38, 86, 99);
+    color: white;
+}

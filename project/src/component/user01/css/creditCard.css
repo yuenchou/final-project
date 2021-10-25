@@ -1,0 +1,101 @@
+.container .cardBody {
+    padding: 0 5rem 5rem 5rem;
+}
+@media(max-width:768px) {
+    .container .cardBody {
+        padding: 0 1rem 1rem 1rem;
+    }
+    .container .cardTop {
+        padding: 0.7rem 1rem;
+    }
+}
+.spanText{
+    color: rgb(179, 179, 179);
+}
+
+.cardBody input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    border-radius: 3px;
+}
+.cardBody input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.myHeader {
+    font-size: 2rem;
+}
+
+.myLeft {
+    background-color: #ffffff;
+    padding: 2vh;
+}
+
+.myLeft img {
+    width: 2rem;
+}
+
+.myLeft .col-4 {
+    padding-left: 0;
+}
+
+.myRight .item {
+    padding: 0.3rem 0;
+}
+
+.myRight {
+    background-color: #ffffff;
+    padding: 2vh;
+}
+
+.myLower {
+    line-height: 2rem;
+}
+/* 更改按鈕顏色 */
+div .mBtn {
+    background-color:#265663;
+    border-color: #265663;
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin: 150px 0 16px 0;
+}
+
+div .mBtn:hover {
+    color: white;
+    background-color:#338790;
+    border-color:#338790;
+}
+/* 儲值完成彈出視窗 */
+.modalHeader h3 {
+    font-size: 30px;
+    color: #265663;
+    /* 置中 */
+    position: absolute;
+    top: 4vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modalBody{
+    height: 350px;
+}
+.modalBody .imgDiv{
+    text-align: center;
+    /* line-height: 300px; */
+}
+.modalBody .imgDiv img{
+    width: 150px;
+}
+
+.modalBody .modalBodyH3{
+    font-size: 22px;
+    color: #265663;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 8%;
+}

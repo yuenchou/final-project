@@ -1,0 +1,53 @@
+.logo{
+  width: 200px;
+}
+.margin-0-auto {
+  margin: 0 auto;
+}
+
+
+.nbr-link{
+    color:#265663 !important;
+    text-decoration:none;
+
+}
+.nbr-link:hover{
+    color:#19a187 !important;
+    font-weight: 800;
+    text-decoration:underline;
+    
+}
+
+.btn-project {
+  color: #fff;
+  background-color: rgb(38, 86, 99) ;
+  border-color: rgb(38, 86, 99);
+}
+
+.btn-project:hover {
+  color: #fff;
+  background-color: rgb(25, 161, 135);
+  border-color: rgb(25, 161, 135);
+}
+
+.bg-project {
+  color: #fff !important;
+  background-color: rgb(38, 86, 99);
+  border-color: rgb(38, 86, 99);
+}
+
+.footer-list{
+    text-decoration:none;
+    
+}
+.footer-ul>li{
+margin-bottom: 8px;
+}
+.pagination .page-link {
+    background: rgb(38, 86, 99);
+    color: white;
+}
+
+.pagination .page-link:hover{
+    background-color: rgb(25, 161, 135);
+}

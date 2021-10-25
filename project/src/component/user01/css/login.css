@@ -1,0 +1,74 @@
+body {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.modal-header h3 {
+    font-size: 30px;
+    color: #265663;
+    /* 置中 */
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 輸入框 */
+
+.form .modal-body .account1, .form .modal-body .password1, .form .modal-body .txtCode {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 60%;
+    border-radius: 10px;
+    display: inline;
+    font-size: 16px;
+}
+
+.account::placeholder, .password::placeholder, .txtCode::placeholder {
+    color: #265663;
+}
+
+/* 送出按鈕 */
+
+.form .modal-body .loginbtn {
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    background-color: #265663;
+    border-color: #265663;
+}
+
+.form .modal-body .loginbtn:hover {
+    background-color: #338790;
+    border-color: #338790;
+}
+
+.modal-footer .signup .text-mycolor {
+    color: #265663;
+}
+
+.modal-footer .signup a {
+    color: #19A187;
+}
+
+.error {
+    display: inline-block;
+    color: #dc3545;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.checkmark {
+    display: inline;
+}
+
+#canvas {
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

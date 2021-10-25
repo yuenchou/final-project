@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+    --v1color: rgb(41, 88, 101);
+    --v2color: rgb(56, 155, 162);
+    --fontcolor: rgb(60, 91, 100);
+    --buttoncolor: rgb(25, 161, 135);
+    --button2color: rgb(38, 86, 99);
+    --lightcolor: rgb(255, 166, 0);
+}
+
+.myBtn2 {
+    background-color: var(--button2color);
+    color: white;
+    height: 40px;
+}
+
+.myContent {
+    letter-spacing: 0.5px;
+    color: var(--fontcolor);
+}
+
+.myLink {
+    color: var(--v2color);
+}
+
+.myLink:hover{
+    color: var(--fontcolor);
+}
+
+.title {
+    color: var(--v1color);
+}
+
+.price {
+    color: var(--lightcolor);
+}
+
+.myBorder {
+    border-bottom: 2px dashed rgba(56, 155, 162, 0.7);
+}

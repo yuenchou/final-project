@@ -1,0 +1,107 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* 更改所有按鈕顏色 */
+div .btn{
+    color: white;
+    background-color:#265663;
+    border-color: #265663;
+}
+div .btn:hover{
+    color: white;
+    background-color:#338790;
+    border-color:#338790;
+}
+
+/* title */
+.formTitle {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing:5px;
+    padding: 10px;
+}
+.container .titleDiv{
+    background-color: #265663;
+}
+
+/* 下拉式選單 */
+.selectDiv{
+    margin: 30px auto;
+    text-align: center;
+}
+.selectDiv select{
+    height: 40px;
+    text-align-last: center;
+    font-size: 18px;
+}
+.selectDiv option{
+    font-size: 18px;
+    height: 30px;
+    /* text-align: center; */
+}
+
+/* 轉點 */
+div .radioDiv{
+    /* width: 600px; */
+    margin: 30px auto;
+    border-top: 0.5px dotted gray;
+}
+.radioDiv input[type="radio"]{
+    display: none;
+    /* cursor: pointer; */
+}
+.radioDiv input[type="radio"]:checked+label{
+    background-color:#FDF8B4;
+    width: 100%;
+    /* = radioDiv width */
+    /* border-bottom: 0.5px dotted gray; */
+}
+.radioDiv .item{
+    text-align: center;
+    /* height: 50px;    */
+    /* = .price height */
+    border-bottom: 0.5px dotted gray;
+    border-collapse:collapse;
+    cursor: pointer;
+}
+.radioDiv .item:hover{
+    background-color:#FDF8B4;
+}
+.radioDiv .price{
+    display: inline-block;
+    height: 50px;
+    font-size: 16px;
+    color: #265663;
+    cursor: pointer;
+}
+.radioDiv .price span{
+    line-height: 50px;
+    text-align: right;
+}
+.radioDiv .price .ms-6{
+    margin-left: calc(20*1rem);
+}
+.h3Margin{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+/* 儲值按鈕 */
+.container .btnDiv{
+    text-align: center;
+}
+.container .btnDiv .myBtn{
+    width: 20%;
+    height: 50px;
+    margin-top:50px;
+}
+.btnDiv .aText{
+    text-decoration: none;
+    color: white;
+}
+.btnDiv .aText:hover{
+    color: white;
+}
